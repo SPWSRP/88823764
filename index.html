@@ -2,20 +2,168 @@
 <html>
 
 <head>
-    <title>PROFILE</title>
-    <meta charset="utf-8" />
+
 </head>
 
 <body>
-    week 01 <br />
-    <h1 align=center>-- PROFILE --</h1>
-    
-    <center><img src="ProfilePic.jpg" width="250"/></center>
-    <h2 align=center>64160300</h2>
-    <h3 align=center>Name : Supawee Sangrapee</h2>
-    <h3 align=center>Nickname : Ploy</h3>
-    <h3 align=center>Age : 19 years old</h3>
-    <p>Hi!!!</p>
+    <h1>Heading 1</h1>
+    <h2 id="test">Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>
+        <b>This <i>paragraph</i>
+            <u>contains</u> </b>
+        a lot of lines
+        in the source code,but the browser
+        ignores it.
+    </p>
+
+    <p>
+        This paragraph
+        contains&nbsp;&nbsp;&nbsp;a lot of spaces
+        in the source code,<br /><br /><br />but the browser
+        ignores it.
+    </p>
+
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ol>
+        <!-- LOOP -->
+        <li>Coffee</li>
+        <!-- LOOP -->
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <a href="https://www.google.com/" target="_blank">Visit Google</a>
+    <a href="/test.html" target="_blank">go text test in index</a>
+    <a href="#test" target="_self">Visit Google</a>
+
+    <figure><img src="majin-buu-happy.jpg" alt="Girl in a jacket" style="width:500px;height:300px;"
+            title="Girl in a jacket" /><br />
+        <figcaption>Girl in a jacket</figcaption>
+    </figure>
+
+    <table border="2" width="100%">
+        <tr>
+            <th colspan="2"></th>
+            <th scope="col">Saturday</th>
+            <th rowspan="3" scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600</td>
+            <td align="center">$675</td>
+        </tr>
+        <th colspan="2">Test col 3</th>
+        <th colspan="2"></th>
+        </tr>
+    </table>
+
+    <table border="2" width="100%">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st January</th>
+                <td>250</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th>2nd January</th>
+                <td>285</td>
+                <td>48</td>
+            </tr>
+            <!-- additional rows as above -->
+            <tr>
+                <th>31st January</th>
+                <td>129</td>
+                <td>64</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>7824</td>
+                <td>1241</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br />
+    <form action="#">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <br />
+        <label for="username">Username:</label> <br>
+        <input type="text" id="username" name="username"> <br>
+        <label for="pass">Password:</label> <br>
+        <input type="password" id="pass" name="password">
+        <br />
+        <br />
+        <label for="testtxta">Test textarea:</label>
+        <textarea rows="10"></textarea>
+        <br />
+        <label for="r1">Radio value M</label>
+        <input type="radio" id="r1" value="M" checked name="radio test">
+        <label for="r2">Radio value W</label>
+        <input type="radio" id="r2" value="W" name="radio test">
+        <br>
+        <input type="checkbox">
+        <br>
+        <select>
+            <option selected disabled>เลือก</option>
+            <option value="1">red</option>
+            <option value="2">red</option>
+            <option value="3">red</option>
+        </select>
+        <br><br>
+        <input type="date">
+        <input type="datetime-local">
+        <br><br>
+        <input type="number">
+        <br><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br> 
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        <br><br>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
 </body>
 
 </html>
