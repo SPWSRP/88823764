@@ -9,50 +9,91 @@
     <h1>Workshop #HTML - FORM</h1>
     
     <form>
-        <label for="fname">ชื่อ</label>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">สกุล</label>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="birthday">วัน/เดือน/ปีเกิด</label>
-        <input type="date" id="birthday"><br>
-        <label for="age">อายุ</label>
-        <input type="text" id="age" name="age"><br>
-        <label for="sex">เพศ</label>
-        <input type="radio" id="s1" value="ชาย" name="sex">
-        <label for="s1">ชาย</label>
-        <input type="radio" id="s2" value="หญิง" name="sex">
-        <label for="s1">หญิง</label><br>
-        <label for="picture">รูป</label>
-        <input type="file" id="picture" name="picture"><br><br>
         <table>
+            <tr>
+                <td width="25%">
+                    <label for="fname">ชื่อ</label>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="fname"><br>
+                </td>
+            </tr>
+            <tr>
+                <td  width="25%">
+                    <label for="lname">สกุล</label>
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname"><br>
+                </td>
+            </tr>
+            <tr>
+                <td  width="25%">
+                    <label for="birthday">วัน/เดือน/ปีเกิด</label>
+                </td>
+                <td>
+                    <input type="date" id="birthday"><br>
+                </td>
+            </tr>
+            <tr>
+                <td width="25%">
+                    <label for="age">อายุ</label>
+                </td>
+                <td>
+                    <input type="text" id="age" name="age"><br>
+                </td>
+            </tr>
+            <tr>
+                <td width="25%">
+                    <label for="sex">เพศ</label>
+                </td>
+                <td>
+                    <input type="radio" id="s1" value="ชาย" name="sex">
+                    <label for="s1">ชาย</label>
+                    <input type="radio" id="s2" value="หญิง" name="sex">
+                    <label for="s1">หญิง</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td width="25%">
+                    <label for="picture">รูป</label>
+                </td>
+                <td>
+                    <input type="file" id="picture" name="picture"><br>
+                </td>
+            </tr>
             <tr>
                 <td>
                     <label for="address">ที่อยู่</label>
                 </td>
                 <td><textarea rows="5"></textarea><br></td>
             </tr>
+            <tr>
+                <td>
+                    <label for="favColor">สีที่ชอบ</label>
+                </td>
+                <td>
+                    <select>
+                        <option value="1">สีแดง</option>
+                        <option value="2">สีฟ้า</option>
+                        <option value="3">สีเหลือง</option>
+                    </select><br>
+                </td>
+            </tr>
         </table>
-        
-        <label for="favColor">สีที่ชอบ</label>
-        <select>
-            <option value="1">สีแดง</option>
-            <option value="2">สีฟ้า</option>
-            <option value="3">สีเหลือง</option>
-        </select><br>
         <label for="favSong">แนวเพลงที่ชอบ</label>
         <input type="radio" id="fs1" value="เพื่อชีวิต" name="favSong">
-        <label for="fs1">เพื่อชีวิต</label>
-        <input type="radio" id="fs2" value="ลูกทุ่ง" name="favSong">
-        <label for="fs1">ลูกทุ่ง</label>
-        <input type="radio" id="fs3" value="อื่นๆ" name="favSong">
-        <label for="fs1">อื่นๆ</label><br>
-        <br>
+                    <label for="fs1">เพื่อชีวิต</label>
+                    <input type="radio" id="fs2" value="ลูกทุ่ง" name="favSong">
+                    <label for="fs1">ลูกทุ่ง</label>
+                    <input type="radio" id="fs3" value="อื่นๆ" name="favSong">
+                    <label for="fs1">อื่นๆ</label><br>
+                    <br>
         <input type="checkbox" id="acceptInfo" name="acceptInfo">
         <label for="accecptInfo">ยินยอมให้เก็บข้อมูล</label><br>
-        <br>
+        <br><br>
         <button type="reset">Reset</button >
         
-        <button type="submit" style="margin-left: 15%;">Submit</button>
+        <button type="submit" style="margin-left: 10%;">Submit</button>
     </form>
 </body>
 
