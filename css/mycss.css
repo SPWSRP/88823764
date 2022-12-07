@@ -1,0 +1,62 @@
+* {
+    font-family:
+        "Sofia",
+        Vigrand,
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+#myh1 {
+    color: rgb(255, 170, 0);
+    text-align: left;
+    background-color: #FED180;
+}
+
+@font-face {
+    font-family: Vigrand;
+    font-style: italic;
+    src: url(C:\Users\SPWSR\Documents\GitHub\88823764\css\font\Vigrand-Regular.ttf);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+
+.header {
+    color: green;
+    font-size: 100px;
+    text-align: center;
+}
+
+.header2 {
+    color: yellow;
+}
+
+.center {
+    text-align: center;
+}
+
+.mybox {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mybox2 {
+
+    display: inline-block;
+    border-top-color: darkgoldenrod;
+    background-color: mediumturquoise;
+}
+
+.mybox2:hover {
+    background-color: red;
+}
